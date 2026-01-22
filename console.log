@@ -1,0 +1,10 @@
+loadbeforetransaction?v=Zs8aq0rG3WrgWBk3FKpbyZda0VAHNeZmlqO1utG2zr81:1399 JQMIGRATE: Migrate is installed, version 3.3.2
+loadbeforetransaction?v=Zs8aq0rG3WrgWBk3FKpbyZda0VAHNeZmlqO1utG2zr81:5970 Deprecation warning: use moment.updateLocale(localeName, config) to change an existing locale. moment.defineLocale(localeName, config) should only be used for creating a new locale See http://momentjs.com/guides/#/warnings/define-locale/ for more info.
+X @ loadbeforetransaction?v=Zs8aq0rG3WrgWBk3FKpbyZda0VAHNeZmlqO1utG2zr81:5970
+sharedtransaction?v=Rsy4XJrHSieMIE96E6NI_llCc7ll0XuUG7dIfzgTIfA1:1445 ***** WARNING - SCALE 2022 upgrade & JavaScript customizations: Ensure wrapping content of window load event in setTimeout function to avoid JQuery upgrade side effects for all JavaScript customizations. *****
+(anonymous) @ sharedtransaction?v=Rsy4XJrHSieMIE96E6NI_llCc7ll0XuUG7dIfzgTIfA1:1445
+sharedtransaction?v=Rsy4XJrHSieMIE96E6NI_llCc7ll0XuUG7dIfzgTIfA1:4913 Object
+userscript.html?name=Load-dashboard-fix.user.js&id=2c1b83a1-06d5-4a6b-8452-28c5719e0240:24 [load-dashboard-fix] Booting load spinner fix
+userscript.html?name=Load-dashboard-fix.user.js&id=2c1b83a1-06d5-4a6b-8452-28c5719e0240:24 [load-dashboard-fix] Network hooks initialized
+userscript.html?name=Load-dashboard-fix.user.js&id=2c1b83a1-06d5-4a6b-8452-28c5719e0240:24 [load-dashboard-fix] Forcing spinner OFF (initial hook)
+userscript.html?name=Load-dashboard-fix.user.js&id=2c1b83a1-06d5-4a6b-8452-28c5719e0240:24 [load-dashboard-fix] Hooked into _loadSpinner observable

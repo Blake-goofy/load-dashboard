@@ -1,0 +1,12 @@
+<div data-bind="if: _widgets().count()=== 0 &amp;&amp; !_loadSpinner()">
+   <div class="manhWidgetInfo">
+      <img class="dahboardManhLogo" src="/SCALE/Content/manh/images/ManhattanSCALE.png">
+      <p class="dahboard-no-widgets infoText" data-resourcekey="MSG_DASHBOARD05" data-bind="text:ResourceManager.GetResource('MSG_DASHBOARD05',ResourceManager.ResourceType.Msg).TEXT ,attr:{'data-resourcevalue':ResourceManager.GetResource('MSG_DASHBOARD05',ResourceManager.ResourceType.Msg).TEXT}" data-resourcevalue="The Warehouse Dashboard is configurable to your business needs.">The Warehouse Dashboard is configurable to your business needs.</p>
+      <p class="dahboard-no-widgets" data-resourcekey="MSG_DASHBOARD06" data-bind="text:ResourceManager.GetResource('MSG_DASHBOARD06',ResourceManager.ResourceType.Msg).TEXT ,attr:{'data-resourcevalue':ResourceManager.GetResource('MSG_DASHBOARD06',ResourceManager.ResourceType.Msg).TEXT}" data-resourcevalue="No widgets are currently configured for display.">No widgets are currently configured for display.</p>
+      <a class="dahboard-no-widgets" data-resourcekey="MSG_DASHBOARD07" href="/Scale/Help/WebHelp/Content/warehouseDashboard.htm" data-bind="text:ResourceManager.GetResource('MSG_DASHBOARD07',ResourceManager.ResourceType.Msg).TEXT ,attr:{'data-resourcevalue':ResourceManager.GetResource('MSG_DASHBOARD07',ResourceManager.ResourceType.Msg).TEXT}" tabindex="-1" target="_blank" data-resourcevalue="Learn how to configure the widgets.">Learn how to configure the widgets.</a>
+   </div>
+</div>
+<div id="loadspinner" data-bind="style: { display: _loadSpinner() ? 'block' : 'none' }" style="display: none;">
+   <img id="loader" src="/scale/Content/manh/images/loading.gif">
+</div>
+<div id="screenfade" class="modal fade" data-bind="style: { display: _loadSpinner() ? 'block' : 'none' }" style="display: none;"></div>
