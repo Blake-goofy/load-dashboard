@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Load dashboard fix
 // @namespace    http://tampermonkey.net/
-// @version      0.0
+// @version      0.1
 // @description  Fixes load animation hanging on dashboard load
 // @icon         https://scale20.byjasco.com/favicon.ico
 // @author       Blake
